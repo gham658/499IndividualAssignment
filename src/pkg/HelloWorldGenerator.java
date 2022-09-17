@@ -2,9 +2,11 @@ package pkg;
 
 import java.util.Scanner;
 
+
+
 public class HelloWorldGenerator {
 	public static void main(String[] args) {
-		System.out.println("Enter the number of times you woul like 'Hello World!' printed");
+		System.out.println("Enter the number of times you would like 'Hello World!' printed");
 		Scanner s = new Scanner(System.in);
 		int i = s.nextInt();
 		
